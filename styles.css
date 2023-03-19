@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: rgb(226, 234, 239);
+  color: rgb(14, 30, 40);
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+
+  /* font: normal 16px "Roboto", sans-serif; */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  font-weight: bold;
+}
+
+a:visited {
+  color: grey;
+}
+
+.avatar {
+  width: 35%;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+.info-text {
+  margin-left: 25px;
+}
+
+.info-table {
+  width: 100%;
+}
+
+.info-table td {
+  padding-bottom: 5px;
+}
+
+.info-table td:nth-child(1) {
+  font-weight: bold;
+  padding-right: 15px;
+}
+
+.info-table td:nth-child(2) {
+  color: #86898f;
+}
+
+.info-table tr:nth-child(1) td:nth-child(1) {
+  vertical-align: top;
+}
+
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+}
+
+.container {
+  padding-top: 30px;
+  max-width: 750px;
+  margin: auto;
+}
+
+.bg-blue {
+  background-color: rgb(200, 255, 255);
+}
+
+.bg-yellow {
+  display: flex;
+  background: #fff9dc;
+}
+
+.bg-green {
+  background: #e5ffe7;
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+
+.card {
+  padding: 15px 20px 20px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 14px;
+  padding-right: 40px;
+  color: #86898f;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+  text-align: center;
+}
+
+.table tr:nth-child(3) td:nth-child(2),
+.table tr:nth-child(3) td:nth-child(3) {
+  vertical-align: top;
+}
+
+.sprachen {
+  width: 40%;
+  margin-right: 0;
+}
+
+.list {
+  padding: 0 20px;
+  list-style-type: square;
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+.chart {
+  width: 60%;
+  margin-top: 72px;
+  margin-right: 40px;
+}
+
+.chart-bar {
+  background-color: #b3b4b7;
+  border-radius: 5px;
+  margin-bottom: 18px;
+}
+
+.bar {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  border-radius: 5px;
+}
+
+.rus {
+  width: 99%;
+  background-color: rgb(137, 226, 64);
+}
+
+.ukr {
+  width: 95%;
+  background-color: rgb(160, 233, 90);
+}
+
+.de {
+  width: 80%;
+  background-color: rgb(175, 243, 120);
+}
+
+.eng {
+  width: 65%;
+  background-color: rgb(211, 252, 90);
+}
+
+.skills {
+  list-style-type: circle;
+}
+
+.uni {
+  font-size: 20px;
+  position: relative;
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.uni h3 {
+  text-align: center;
+}
+
+.noten {
+  position: absolute;
+  right: 20px;
+}
+/* .contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid #ccc;
+  color: black;
+  padding-top: 5px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+}
+
+.row > .form-group:first-child {
+  margin-right: 20px;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-bottom: 7px;
+  padding: 10px 15px;
+  background-color: #2a2a2c;
+  color: rgb(226, 234, 239);
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+} */

@@ -2,64 +2,154 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Document</title>
+    <title>Lebenslauf</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Bohdan Popov</h1>
-    <p>Студент технического университета в городе Дармштадт</p>
-    <hr />
-    <p><strong>Репетитор</strong> с опытом</p>
-    <p>Предметы:</p>
-    <ul type="square">
-      <li>Математика</li>
-      <li>Физика</li>
-      <li>Химия</li>
-    </ul>
-    <hr />
-    <h2>Связаться со мной:</h2>
-    <p><a href="https://t.me/BohdanTut" target="_blank">Мой телеграмм</a></p>
-    <p>или</p>
-    <form>
-      <label for="name">Введите Ваше имя:</label>
-      <input type="text" id="name" placeholder="Написать..." />
+    <div class="container">
+      <div class="info">
+        <img src="avatar.jpg" alt="Not found" class="avatar" />
+        <div class="info-text">
+          <h1>Bohdan Popov</h1>
+          <table class="info-table">
+            <tr>
+              <td>Anschrift:</td>
+              <td>
+                Pfingstbrunnenstr. 54 <br />
+                65824 Schwalbach
+              </td>
+            </tr>
+            <tr>
+              <td>Telefon:</td>
+              <td>+(49)01624593758</td>
+            </tr>
+            <tr>
+              <td>E-mail:</td>
+              <td>bodyaluck2005@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Geb:</td>
+              <td>23.10.2005</td>
+            </tr>
+          </table>
+          <h3>Kontakt:</h3>
+          <a href="https://t.me/BohdanTut" target="_blank">Telegram</a>
+          |
+          <a
+            href="https://instagram.com/bogdan_baklan_?igshid=ZDdkNTZiNTM="
+            target="_blank"
+            >Instagram</a
+          >
+          |
+          <a href="https://wa.me/+491624593758" target="_blank">WhatsApp</a>
+        </div>
+      </div>
 
-      <br />
+      <div class="card bg-blue">
+        <h2>Über mich</h2>
+        <p>
+          Seit meiner Kindheit hatte ich viel Interesse an Computern und
+          Naturwissenschaften. Jetzt studiere ich an der TU-Darmstadt im
+          technischen Bereich. Es ist ein eindeutiger Beweis, dass ich sehr
+          motiviert bin, mich als Informatiker weiter zu entwickeln. Außerdem
+          habe ich gute Kommunikationsskills und arbeite im Team gern. Ich bin
+          bereit, kontinuierlich von erfahrenen Entwicklern zu lernen und meine
+          Kenntnisse selbst weiterzuvertiefen. Für Wünsche und Korrekturen des
+          Auftraggebers bin ich völlig offen. Ich freue mich vor allem darauf,
+          meine Fähigkeiten zu verbessern und die Erfahrungen zu sammeln.
+        </p>
+      </div>
 
-      <label for="number">Введите Ваш номер:</label>
-      <input type="text" id="number" placeholder="Написать..." />
+      <div class="card bg-green">
+        <h2>Ausbildung</h2>
+        <table class="table">
+          <tr>
+            <td>Schule Nr.24</td>
+            <td>Odesa | Ukraine</td>
+            <td>2011 - 2017</td>
+          </tr>
+          <tr>
+            <td>Richelieu Lyceum</td>
+            <td>Odesa | Ukraine</td>
+            <td>2017 - 2022</td>
+          </tr>
+          <tr>
+            <td>Studienkolleg <br />an der TU Darmstadt</td>
+            <td>Darmstadt</td>
+            <td>2022 - now</td>
+          </tr>
+        </table>
+      </div>
 
-      <br />
+      <div class="card bg-yellow">
+        <div class="sprachen">
+          <h2>Sprachkenntnisse</h2>
+          <ul class="list">
+            <li>Russisch</li>
+            <li>Ukrainisch</li>
+            <li>Deutsch</li>
+            <li>Englisch</li>
+          </ul>
+        </div>
 
-      <label for="text">Введите Ваш запрос:</label>
-      <br />
-      <textarea name="text" id="text" cols="15" rows="2"></textarea>
+        <div class="chart">
+          <div class="chart-bar">
+            <div class="bar rus"></div>
+          </div>
+          <div class="chart-bar">
+            <div class="bar ukr"></div>
+          </div>
+          <div class="chart-bar">
+            <div class="bar de"></div>
+          </div>
+          <div class="chart-bar">
+            <div class="bar eng"></div>
+          </div>
+        </div>
+      </div>
 
-      <br />
+      <div class="card bg-red">
+        <h2>Fähigkeiten</h2>
+        <ul class="list skills">
+          <li>Python</li>
+          <li>C++</li>
+          <li>JavaScript</li>
+          <li>Html</li>
+          <li>Css</li>
+          <li>Word</li>
+          <li>Excel</li>
+        </ul>
+      </div>
 
-      <input type="submit" />
-    </form>
-    <hr />
-    <h2>Образование</h2>
-    <table border="2">
-      <tr>
-        <th>Место</th>
-        <th>Город</th>
-        <th>Года</th>
-      </tr>
-      <tr>
-        <td>Ришельевский лицей</td>
-        <td>Одесса</td>
-        <td>2011 - 2022</td>
-      </tr>
-      <tr>
-        <td>Studienkolleg</td>
-        <td>Darmstadt</td>
-        <td>2022 -</td>
-      </tr>
-    </table>
-    <hr />
-    <h2>Ссылка на сайт университета</h2>
-    <a href="uni.html">ТЫК</a>
-    <hr />
+      <div class="uni">
+        <h3>Sonstiges</h3>
+        <a href="https://www.tu-darmstadt.de/" target="_blank">Lehranstalt</a>
+        <a class="noten" href="Noten.pdf" target="_blank">Noten</a>
+      </div>
+
+      <!-- <div class="contact">
+        <h2>Связаться со мной:</h2>
+
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name" placeholder="Написать..." />
+            </div>
+
+            <div class="form-group">
+              <label for="number">Ваш номер:</label>
+              <input type="text" id="number" placeholder="Написать..." />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="text">Введите Ваш запрос:</label>
+            <textarea name="text" id="text" cols="15" rows="2"></textarea>
+          </div>
+
+          <input class="btn" ; type="submit" />
+        </form>
+      </div> -->
+    </div>
   </body>
 </html>
