@@ -49,6 +49,7 @@ a:visited {
 }
 
 .avatar {
+  transition: 1s 0.5s;
   width: 35%;
   border-radius: 28px;
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
@@ -215,6 +216,7 @@ a:visited {
 }
 
 .chart-bar {
+  transition: 1s 0.15s;
   background-color: #b3b4b7;
   border-radius: 5px;
   margin-bottom: 15.5px;
