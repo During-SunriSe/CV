@@ -28,6 +28,7 @@ h3 {
 p {
   text-align: justify;
   font-size: 16px;
+  line-height: 1.25;
   font-family: inherit;
 }
 
@@ -91,7 +92,7 @@ a:visited {
   margin-left: 25px;
 }
 
-@media (max-width: 700px) {
+@media all and (max-width: 700px) {
   .info {
     display: block;
     text-align: center;
